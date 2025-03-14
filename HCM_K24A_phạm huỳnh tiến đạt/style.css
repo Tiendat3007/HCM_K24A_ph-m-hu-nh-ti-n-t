@@ -176,4 +176,58 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
   }
+ @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 10px;
+    }
+  
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-image {
+      order: -1;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .hero-image img {
+      max-width: 80%;
+      height: auto;
+    }
+  
+    .hero-text {
+      margin-top: 10px;
+      padding: 0 20px;
+    }
+  
+    .hero-text h1 {
+      font-size: 1.8rem;
+    }
+  }
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+  
+    .end1 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .end2 {
+      position: static;
+      text-align: center;
+    }
+
   
